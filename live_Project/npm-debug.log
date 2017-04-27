@@ -1,0 +1,219 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'karma',
+1 verbose cli   'karma-phantomjs-launcher',
+1 verbose cli   'karma-jasmine',
+1 verbose cli   'jasmine-core',
+1 verbose cli   'phantomjs-prebuilt',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData karma
+8 silly fetchPackageMetaData karma-phantomjs-launcher
+9 silly fetchPackageMetaData karma-jasmine
+10 silly fetchPackageMetaData jasmine-core
+11 silly fetchPackageMetaData phantomjs-prebuilt
+12 silly fetchNamedPackageData karma
+13 silly mapToRegistry name karma
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: 'karma',
+16 silly mapToRegistry   scope: null,
+16 silly mapToRegistry   escapedName: 'karma',
+16 silly mapToRegistry   name: 'karma',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri https://registry.npmjs.org/karma
+18 silly fetchNamedPackageData karma-phantomjs-launcher
+19 silly mapToRegistry name karma-phantomjs-launcher
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'karma-phantomjs-launcher',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   escapedName: 'karma-phantomjs-launcher',
+22 silly mapToRegistry   name: 'karma-phantomjs-launcher',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/karma-phantomjs-launcher
+24 silly fetchNamedPackageData karma-jasmine
+25 silly mapToRegistry name karma-jasmine
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: 'karma-jasmine',
+28 silly mapToRegistry   scope: null,
+28 silly mapToRegistry   escapedName: 'karma-jasmine',
+28 silly mapToRegistry   name: 'karma-jasmine',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/karma-jasmine
+30 silly fetchNamedPackageData jasmine-core
+31 silly mapToRegistry name jasmine-core
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'jasmine-core',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   escapedName: 'jasmine-core',
+34 silly mapToRegistry   name: 'jasmine-core',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/jasmine-core
+36 silly fetchNamedPackageData phantomjs-prebuilt
+37 silly mapToRegistry name phantomjs-prebuilt
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'phantomjs-prebuilt',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   escapedName: 'phantomjs-prebuilt',
+40 silly mapToRegistry   name: 'phantomjs-prebuilt',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/phantomjs-prebuilt
+42 verbose request uri https://registry.npmjs.org/karma
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 4:07:31 PM
+45 verbose request id 41b90e714a6eac75
+46 http request GET https://registry.npmjs.org/karma
+47 verbose request uri https://registry.npmjs.org/karma-phantomjs-launcher
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 4:07:31 PM
+50 http request GET https://registry.npmjs.org/karma-phantomjs-launcher
+51 verbose request uri https://registry.npmjs.org/karma-jasmine
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 4:07:31 PM
+54 http request GET https://registry.npmjs.org/karma-jasmine
+55 verbose request uri https://registry.npmjs.org/jasmine-core
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 4:07:31 PM
+58 http request GET https://registry.npmjs.org/jasmine-core
+59 verbose request uri https://registry.npmjs.org/phantomjs-prebuilt
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 4:07:31 PM
+62 http request GET https://registry.npmjs.org/phantomjs-prebuilt
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+65 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+66 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+67 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+68 info attempt registry request try #2 at 4:07:41 PM
+69 http request GET https://registry.npmjs.org/karma
+70 info attempt registry request try #2 at 4:07:41 PM
+71 http request GET https://registry.npmjs.org/karma-phantomjs-launcher
+72 info attempt registry request try #2 at 4:07:41 PM
+73 http request GET https://registry.npmjs.org/karma-jasmine
+74 info attempt registry request try #2 at 4:07:41 PM
+75 http request GET https://registry.npmjs.org/jasmine-core
+76 info attempt registry request try #2 at 4:07:41 PM
+77 http request GET https://registry.npmjs.org/phantomjs-prebuilt
+78 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+79 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+80 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+81 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+82 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+83 info attempt registry request try #3 at 4:08:41 PM
+84 http request GET https://registry.npmjs.org/karma
+85 info attempt registry request try #3 at 4:08:41 PM
+86 http request GET https://registry.npmjs.org/karma-phantomjs-launcher
+87 info attempt registry request try #3 at 4:08:41 PM
+88 http request GET https://registry.npmjs.org/karma-jasmine
+89 info attempt registry request try #3 at 4:08:41 PM
+90 http request GET https://registry.npmjs.org/jasmine-core
+91 info attempt registry request try #3 at 4:08:41 PM
+92 http request GET https://registry.npmjs.org/phantomjs-prebuilt
+93 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+93 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+93 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+93 silly fetchPackageMetaData  error for karma { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+93 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+93 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+93 silly fetchPackageMetaData   code: 'ENOTFOUND',
+93 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+93 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+93 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+93 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+93 silly fetchPackageMetaData   port: 443 }
+94 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+94 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+94 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+94 silly fetchPackageMetaData  error for karma-phantomjs-launcher { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+94 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+94 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+94 silly fetchPackageMetaData   code: 'ENOTFOUND',
+94 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+94 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+94 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+94 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+94 silly fetchPackageMetaData   port: 443 }
+95 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+95 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+95 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+95 silly fetchPackageMetaData  error for karma-jasmine { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+95 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+95 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+95 silly fetchPackageMetaData   code: 'ENOTFOUND',
+95 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+95 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+95 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+95 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+95 silly fetchPackageMetaData   port: 443 }
+96 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+96 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+96 silly fetchPackageMetaData  error for jasmine-core { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+96 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+96 silly fetchPackageMetaData   code: 'ENOTFOUND',
+96 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+96 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+96 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+96 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+96 silly fetchPackageMetaData   port: 443 }
+97 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+97 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+97 silly fetchPackageMetaData  error for phantomjs-prebuilt { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+97 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+97 silly fetchPackageMetaData   code: 'ENOTFOUND',
+97 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+97 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+97 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+97 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+97 silly fetchPackageMetaData   port: 443 }
+98 silly rollbackFailedOptional Starting
+99 silly rollbackFailedOptional Finishing
+100 silly runTopLevelLifecycles Finishing
+101 silly install printInstalled
+102 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+102 verbose stack     at errnoException (dns.js:28:10)
+102 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+103 verbose cwd C:\Users\Regan\Desktop\live_Project
+104 error Windows_NT 6.3.9600
+105 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "karma" "karma-phantomjs-launcher" "karma-jasmine" "jasmine-core" "phantomjs-prebuilt" "--save-dev"
+106 error node v6.10.2
+107 error npm  v3.10.10
+108 error code ENOTFOUND
+109 error errno ENOTFOUND
+110 error syscall getaddrinfo
+111 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+112 error network This is most likely not a problem with npm itself
+112 error network and is related to network connectivity.
+112 error network In most cases you are behind a proxy or have bad network settings.
+112 error network
+112 error network If you are behind a proxy, please make sure that the
+112 error network 'proxy' config is set properly.  See: 'npm help config'
+113 verbose exit [ 1, true ]
